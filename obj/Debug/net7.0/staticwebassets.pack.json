@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\atualizar.html",
+      "PackagePath": "staticwebassets\\atualizar.html"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\cadastro.html",
+      "PackagePath": "staticwebassets\\cadastro.html"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\css\\tabela.css",
+      "PackagePath": "staticwebassets\\css\\tabela.css"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\js\\atualizar.js",
+      "PackagePath": "staticwebassets\\js\\atualizar.js"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\js\\cadastro.js",
+      "PackagePath": "staticwebassets\\js\\cadastro.js"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\js\\tabela.js",
+      "PackagePath": "staticwebassets\\js\\tabela.js"
+    },
+    {
+      "Id": "D:\\Projeto API\\EstabelecimentosAPI\\wwwroot\\js\\validacoes.js",
+      "PackagePath": "staticwebassets\\js\\validacoes.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EstabelecimentosAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EstabelecimentosAPI.props",
+      "PackagePath": "build\\EstabelecimentosAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EstabelecimentosAPI.props",
+      "PackagePath": "buildMultiTargeting\\EstabelecimentosAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EstabelecimentosAPI.props",
+      "PackagePath": "buildTransitive\\EstabelecimentosAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
