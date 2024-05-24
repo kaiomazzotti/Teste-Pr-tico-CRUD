@@ -1,0 +1,23 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql_server2022
+    restart: always
+    environment:
+      SA_PASSWORD: "YourStrong@Password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./databaseV2:/var/lib/mysql
+  estabelecimentos:
+    image: estabelecimentos:1.0.0
+    container_name: estabelecimentos
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8080:80"
+    depends_on:
+      - sqlserver

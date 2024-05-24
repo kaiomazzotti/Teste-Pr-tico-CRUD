@@ -34,6 +34,11 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapFallbackToFile("/index.html");
+});
+
 app.UseAuthorization();
 
 app.MapControllers();
